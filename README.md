@@ -15,3 +15,9 @@ Input:
 
 Output: 16
 ```
+
+## Execution
+
+```
+python_testing_demo % python -m tool.cli -i ./example_data/example_1.csv
+```
