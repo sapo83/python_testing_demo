@@ -7,10 +7,10 @@ def file_to_matrix(file_path):
 
 def calculate_island_perimeter(matrix):
     """ Calculate the perimeter of all land masses in a 2D matrix. """
-    if matrix is None or len(matrix) == 0 or len(matrix[0]) == 0:
+    if matrix is None or matrix.size == 0:
         return 0
     
-    rows, cols = len(matrix), len(matrix[0])
+    rows, cols = matrix.shape
     perimeter = 0
     
     # Directions: up, down, left, right
