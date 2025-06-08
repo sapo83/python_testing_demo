@@ -26,4 +26,5 @@ python_testing_demo % python -m tool.cli -i ./example_data/example_1.csv
 
 ```
 python -m unittest tests.test_acceptance -v
+python -m unittest tests.test_unit -v
 ```
